@@ -20,3 +20,5 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+# Temporary API testing file
+sample_house.json
