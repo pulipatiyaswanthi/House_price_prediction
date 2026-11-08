@@ -17,7 +17,7 @@ house_data = json.loads(house.to_json())
 
 # Send data to FastAPI
 response = requests.post(
-    "http://127.0.0.1:8000/predict",
+    "https://house-price-prediction-api-q592.onrender.com/predict",
     json=house_data
 )
 
